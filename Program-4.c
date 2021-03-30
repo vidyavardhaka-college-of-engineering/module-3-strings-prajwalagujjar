@@ -11,8 +11,8 @@
 #include <stdio.h>
 int main()
 {
- 
-    // Declare the required variables
+char str [100];
+int i;// Declare the required variables
     printf("Enter a string: ");
     scanf("%s",str);
     for(i=0; str[i]!='\0'; ++i);
